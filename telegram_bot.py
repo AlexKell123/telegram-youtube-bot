@@ -21,10 +21,10 @@ def get_answer(message):
 
     if message.text == '/video':
         bot.state = 'wait_video_link'
-        return 'Для получения видео отправльте ссылку'
+        return 'Для получения видео отправьте ссылку'
     if message.text == '/audio':
         bot.state = 'wait_audio_link'
-        return 'Для получения аудио отправльте ссылку'
+        return 'Для получения аудио отправьте ссылку'
     else:
         return ('Список доступных команд:\n\
         /video - скачивает и присылает видео с YouTube\n\
