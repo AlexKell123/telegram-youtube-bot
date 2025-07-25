@@ -88,5 +88,5 @@ class Service:
     def _get_commands_info(self):
         info = ''
         for command, value in self._commands.items():
-            info += f'{command} - {value['hint']} \n'
+            info += f'{command} - {value["hint"]} \n'
         return info
